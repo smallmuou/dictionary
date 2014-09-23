@@ -30,6 +30,10 @@ _ERR:
     return NULL;
 }
 
+static void dictionary_branch_test() {
+    printf("test\n");
+}
+
 void dictionary_deinit(dictionary_t* dict) {
     if (dict) {
         hash_deinit(dict->h);

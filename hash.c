@@ -6,6 +6,9 @@
 #include "log.h"
 
 #define KEY_MAX_LEN     (256)
+#define CHANG111 1
+#define CHANG1111 1
+
 
 struct hash_entry {
     char key[KEY_MAX_LEN];

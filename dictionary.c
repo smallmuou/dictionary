@@ -5,6 +5,7 @@
 #include "hash.h"
 #include "log.h"
 
+#define CHANGE 1
 #define HASH_SIZE   (256) 
 struct dictionary {
     hash_t* h;

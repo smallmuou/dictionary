@@ -11,6 +11,10 @@ struct dictionary {
     hash_t* h;
 };
 
+static void hello() {
+    printf("hello world\n");
+}
+
 dictionary_t* dictionary_init(void) {
     dictionary_t* dict = calloc(sizeof(dictionary_t), 1);
     if (!dict) {

@@ -13,6 +13,7 @@ struct dictionary {
 
 static void hello() {
     printf("hello world\n");
+    printf("hello world\n");
 }
 
 dictionary_t* dictionary_init(void) {
